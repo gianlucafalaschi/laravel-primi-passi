@@ -9,6 +9,11 @@
 <body>
     <h1>Hello World</h1>
     <h2>{{$brand}}</h2>
-    <h3>arraymodelli</h3>
+    
+    <ul>
+        @foreach ($models as $model)
+            <li>{{$model}}</li>
+        @endforeach
+    </ul>
 </body>
 </html>

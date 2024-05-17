@@ -16,7 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     $data = [
         'brand' => 'Ferrari',
-        'model' => ['Testarossa', '348', '360 Modena']
+        'models' => [
+            'Testarossa', 
+            '348', 
+            '360 Modena'
+        ]
     ];
 
 
